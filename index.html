@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d70a4d3a14.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='styles.css' rel='stylesheet' type='text/css'>
     <title>Hobbies</title>
 </head>
@@ -22,29 +24,43 @@
     <header>
         <h1> Looking for a hobby? </h1>
             <p> You've come to the right place. </p> 
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration='2000'> continue <i class="fas fa-angle-double-down"></i></p>
     </header> 
 </section>
 <!------------------------------------------two-->
 <section id='outside'>
     <h2>Outside hobbies</h2> 
         <ul>
-            <li class='outcard'> 
-                <h3> first </h3>
-                <p> content of first </p>
+            <li data-aos="fade-up" data-aos-duration="1000" class='outcard'> 
+                <img src='/images/DY5_0734_2.jpg' width=100%>
+                <h3> Water sports </h3>
+                <p> if you're near a beach or a large body of water, surfing or wakeboarding are a great souce of exercise. 
+                    <br> If you're looking for something more laid-back, kayaking or paddling boarding is a great thing 
+                    <br> to do with friends, and rental centers are pretty easy to find. </p>
             </li> 
-            <li class='outcard'> 
-                <h3> second </h3>
-                <p> content of second </p>
+            <li data-aos="fade-down" data-aos-duration="1000" class='outcard'> 
+                <h3> Skating </h3>
+                <p> Skating comes in various forms, including rollerskating, ice-skating, skateboarding, 
+                    scootering, and many more. Parks are great places to learn, and if you're looking for something 
+                    more active, skate parks are a great way to expand your skills. If wheels aren't quite for you, hiking or rock climbing 
+                    are both easy sports to get into and are great for any age.</p>
+                <img src='/images/PXL_20210220_165703133_exported_15301.jpg' width=100%>
             </li>
-            <li class='outcard'> 
-                <h3> third </h3>
-                <p> conent of third </p>
+            <li data-aos="fade-up" data-aos-duration="1000" class='outcard'> 
+                <img src='/images/artfest.jpg' width=100%>
+                <h3> event </h3>
+                <p> touch grass </p>
             </li>
         </ul>
 </section>
 <!------------------------------------------three-->
-<section id='inside'>
-    <h2>Inside hobbies</h2> <!--make this a paragraph, it has to be enough content to justify the page its taking up-->
+<section id='insidepage'>
+    <h2> Stuck inside? </h2> 
+    <p> Here's a few things that could help pass the time. </p>
+    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration='3000'> continue <i class="fas fa-angle-double-down"></i></p>
+</section>
+<!------------------------------------------four-->
+<section id='insidecards'>
         <ul>
             <li class='incard'> 
                 <h3>first</h3>
@@ -54,34 +70,31 @@
                 <h3> second </h3>
                 <p> content of second </p>
             </li> 
-                 
         </ul>
-</section>
-<!------------------------------------------four-->
-<section id='some-more'>
-    <h2>Still haven't quite found what you're looking for? Here's a few recources that could help.</h2>
-        <p>
-           stuff to help you find things <!-- list a bunch of ways to find new hobbies in a paragraph-->
-        </p>
 </section>
 <!------------------------------------------five-->
 <section id='contact'>
-    <h2> Contact me </h2>
+
         <div class='contactFull'>
-            <div id='desc'>
-                <p> say why is this here? </p>
-            </div>
+            <h2> Contact me </h2>
             <div id='inputs'>
-                <input type='text'>
-                <input type='text'>
-                <input type='text'>
-            </div>
-            <div id='yourMessage'>
-                <input type='text'>
-                <button type='button'> send </button>
+                <input type='text' placeholder='First name'>
+                <input type='text' placeholder='Last name'>
+                <input type='text' placeholder='Your email'>
+            
+                <div id='yourMessage'>
+                    <input type='text' placeholder='Any questions or comments you may have'>
+                    <button type='button'> send </button>
+                </div>
             </div>
         </div>
+
 </section>
 <!-------------------------------------------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+ </script>
+ 
 </body>
 </html>
