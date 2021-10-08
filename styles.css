@@ -120,6 +120,11 @@ section::before { /* TO CHANGE BACKGROUND YOU HAVE TO DO THIS::BEFORE BACKGROUND
     margin: 30px;
     background-color: floralwhite;
 }
+.incard ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 #contact{
